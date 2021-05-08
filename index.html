@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">LOGO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -23,19 +23,29 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
                     <a class="nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">Galeria</a>
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="./galeria.html">Galeria</a>
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
                 </div>
             </div>
         </div>
     </nav>
-    <header class="hero">
-        <div class="container hero__content">
-            <h1 class="hero__title">MUEBLES <span>TRIPLE A</span></h1>
-            <p class="hero__description">Hacemos tu imaginación realidad</p>
-            <a class="hero__dire" href="">Nuestro Trabajo</a>
+    <header class="hero mt-5">
+        <div class="hero__bg">
+            <div class="container hero__content">
+                <h1 class="hero__title">MUEBLES <span>TRIPLE A</span></h1>
+                <p class="hero__description">Hacemos tu imaginación realidad</p>
+                <a class="hero__dire" href="./nosotros.html">Nuestro Trabajo</a>
+            </div>
         </div>
     </header>
+    <!-- boton flotante de whatsapp-->
+    <a class="float"
+        href="https://api.whatsapp.com/send?phone=50371381006&text=Hola!%20%20puedes%20hacer%20tu%20pedido%20por%20este%20medio%20te%20atenderemos%20%20rapidamente."
+        target="_blank">
+        <i class="fab fa-whatsapp my-float fa-1x">
+        </i>
+    </a>
+    <!-- ceramos el  flotante de whatsapp-->
     <main>
         <section class="section-desing pb-4">
             <h2 class="p-4">Algunos de nuestros diseños</h2>
@@ -52,7 +62,8 @@
                                     <i class="fas fa-home fa-5x"></i>
                                 </div>
                             </div>
-                            <p class="text-center py-2">Diseños muebles de hogar, encuentra los diseños mas vendidos.</p>
+                            <p class="text-center py-2">Diseños muebles de hogar, encuentra los diseños mas vendidos.
+                            </p>
                             <a href="" class="btn btn-secondary btn-rounded mb-3">Ver mas información</a>
                         </div>
                         <div class="col-md-6 col-lg-6">
@@ -81,39 +92,41 @@
                 </article>
             </div>
         </section>
-         <section id="1" class="section-desing">
-                <div class="container">
-                    <div class="contenedor1">
-                        <div class="triangulo">
-                            <div class="div1_1" id="mostrar">
-                                <div>
-                                </div>
-                                <h2>
-                                    Nosotros
-                                </h2>
-                                <p>
-                                    En Muebles Triple A dedicados al mobiliario clásico de lujo y a la decoración.elaboramos cada pieza combinando lo mejor de la tradición artística con las tendencias de vanguardia en interiorismo y decoración, para crear ambientes únicos, delicados para
-                                    su hogar y oficinas.
-
-                                </p>
-                                <a href="nosotros.html" class="btn btn-info"> ver mas</a>
-
+        <section id="1" class="section-desing">
+            <div class="container">
+                <div class="contenedor1">
+                    <div class="triangulo">
+                        <div class="div1_1" id="mostrar">
+                            <div>
                             </div>
-                            <div class="div1">
-                                <div class="div1-1">
-                                    <div class="div2">
-                                        <img src="./public/images/nosotros/taller9.jpg">
-                                        </img>
-                                    </div>
-                                    <div class="div3">
-                                        <img src="./public/images/nosotros/kitchen7.png">
-                                        </img>
-                                    </div>
+                            <h2>
+                                Nosotros
+                            </h2>
+                            <p>
+                                En Muebles Triple A dedicados al mobiliario clásico de lujo y a la decoración.elaboramos
+                                cada pieza combinando lo mejor de la tradición artística con las tendencias de
+                                vanguardia en interiorismo y decoración, para crear ambientes únicos, delicados para
+                                su hogar y oficinas.
+
+                            </p>
+                            <a href="nosotros.html" class="btn btn-info"> ver mas</a>
+
+                        </div>
+                        <div class="div1">
+                            <div class="div1-1">
+                                <div class="div2">
+                                    <img src="./public/images/nosotros/taller9.jpg">
+                                    </img>
+                                </div>
+                                <div class="div3">
+                                    <img src="./public/images/nosotros/kitchen7.png">
+                                    </img>
                                 </div>
                             </div>
                         </div>
                     </div>
-            </section>
+                </div>
+        </section>
         <section>
             <article class="container">
                 <h2 class="py-4">Nuestros Servicios</h2>
