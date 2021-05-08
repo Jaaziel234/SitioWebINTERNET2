@@ -34,3 +34,4 @@ $(document).ready(function() {
         $('#target2').hide(1000);
 
     });
+     });
