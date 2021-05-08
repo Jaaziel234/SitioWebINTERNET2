@@ -105,3 +105,466 @@ footer section p{
 .img-start{
     width: 75px;
 }
+   /********++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++****/
+    /* estilos para el  archivo nostros*/
+    /**************************************************************************/
+    /* inicio para el boton de whasatpp*/
+    
+    .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+    
+    .float:hover {
+        text-decoration: none;
+        color: #25d366;
+        background-color: #fff;
+    }
+    
+    .my-float {
+        margin-top: 16px;
+    }
+    /* fin de estilo paara el boton flotante de whatsapp*/
+    /* estilo css para el archivo nosotros en la cabecera*/
+    
+    .card3 {
+        /* para el estilo del el fondo*/
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-sectionUno);
+        margin: 2rem, 0;
+        /*establece el área de margen en los cuatro lados un rem es igual a 16 px*/
+    }
+    
+    .card3-imagen {
+        /*estilo de la imagen donde se ve el circulo enmedio, es la del fondo */
+        width: 100%;
+        height: 38rem;
+        background-image: url(../images/nosotros/diseno4.jpg
+);
+        /*La propiedad de ajuste al objeto define cómo responde un elemento 
+    a la altura y el ancho de su cuadro de conten*/
+        background-size: cover;
+        display: flex;
+        background-repeat: no-repeat;
+        ;
+        flex-direction: column;
+    }
+    
+    .card3-imagen:before {
+        content: "";
+        /* contenedor vasillo*/
+        width: 100%;
+        height: 38rem;
+        background-color: #141414;
+        position: absolute;
+        /* define la transparencia de un elemento, esto es, en qué grado se superpone el fondo al elemento*/
+        opacity: 0.5;
+    }
+    
+    .letrafondo {
+        /* para el area de reservar la letra*/
+        position: relative;
+        color: rgb(250, 246, 246);
+        font-size: 50px;
+        text-align: center;
+        padding: 50px;
+        justify-content: center;
+    }
+    /*la imagen circular de enmedio del archivo nosotros*/
+    
+    .card-imagenredonda {
+        width: 192px;
+        height: 192px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: -128px;
+        z-index: 999;
+    }
+    /*...............................*****************************************...................*/
+    /*************************************************************************************/
+    
+    .contenedor1 {
+        background-color: var(--color-sectionUno);
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    /*..................................................*/
+    /*clase para  para la letra de la izquierda*/
+    
+    .div1 {
+        /*background-color: blue;*/
+        background-color: var(--color-sectionUno);
+        margin-top: 20px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        text-align: center;
+        margin-left: 12px;
+        width: 310px;
+        height: 300px;
+        justify-content: center;
+    }
+    /*clase para sombra y border radios enlaimg de bootrap*/
+    
+    .boreder-radio {
+        border-radius: 8px;
+        box-shadow: 4px 5px 9px rgba(5, 2, 27, 0.9);
+    }
+    
+    .size-imagen {
+        height: 240px;
+        border-radius: 8px;
+    }
+    
+    .boreder-radio:hover {
+        box-shadow: 4px 5px 9px rgba(5, 2, 27, 0.9);
+        transform: translateY(-2%);
+    }
+    /* clase del div que contiene las  dos imagenes*/
+    
+    .div1_1 {
+        /* background-color: red;*/
+        background-color: var(--color-sectionUno);
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+        margin-right: 15px;
+        margin-left: 12px;
+        width: 310px;
+        height: 300px;
+        justify-content: center;
+    }
+    
+    .div1_1 h2 {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+    .div1_1 p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    /*tamaños extra parrafos clases*/
+    
+    .size-letra {
+        font-size: 20px;
+    }
+    
+    .size-parrafo {
+        font-size: 14px;
+    }
+    /* div para poner las imagenes a la para*/
+    
+    .div-imagen {
+        background-color: var(--color-sectionUno);
+        /* background-color: blue;*/
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 35px;
+        text-align: center;
+        width: 310px;
+        height: 300px;
+        justify-content: center;
+    }
+    /* clase del div que contiene las  dos imagenes*/
+    
+    .div-imagen p {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 14px;
+        /* establece el área de margen en la parte superior de un elemento.*/
+        padding-bottom: 10PX;
+        /*Establece la anchura de la zona de relleno inferior de los elementos*/
+    }
+    
+    .div-imagen img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8%;
+        box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.3);
+    }
+    
+    .div-imagen img:hover {
+        box-shadow: 4px 5px 9px rgba(5, 2, 27, 0.9);
+        transform: translateX(4%);
+    }
+    /* para poner a la par las imagenes*/
+    
+    .div1-1 {
+        display: flex;
+        justify-content: flex-start;
+    }
+    /*clase del contenedor  que contiene la imagen mas pequeña */
+    
+    .div2 {
+        /*background-color: pink;*/
+        margin-top: 20px;
+        padding-top: 2px;
+        padding-bottom: 3px;
+        text-align: center;
+        width: 120px;
+        height: 245px;
+        justify-content: center;
+        border-radius: 0.1rem;
+        object-fit: cover;
+        margin-right: -2rem;
+        border-radius: 0.9rem;
+        z-index: 999;
+    }
+    /*clase de la imagen del contenedo div2*/
+    
+    .div2 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.9rem;
+        box-shadow: 4px 5px 9px rgba(5, 2, 27, 0.9);
+    }
+    
+    .div2 img:hover {
+        box-shadow: 3px 3px 10px rgba(19, 19, 209, 0.6);
+        transform: translateX(-11%);
+        /*se mueve hacia arriba en y*/
+    }
+    /*clase del contenedor  que contiene la imagen mas grande */
+    
+    .div3 {
+        /*background-color: black;*/
+        margin-top: 2px;
+        padding-top: 2px;
+        padding-bottom: 10px;
+        text-align: center;
+        width: 210px;
+        height: 285px;
+        border-radius: 0.9rem;
+    }
+    
+    .div3 img:hover {
+        box-shadow: 3px 3px 10px rgba(19, 19, 209, 0.6);
+        transform: translateY(-2%);
+        /*se mueve hacia arriba en y*/
+    }
+    /*clase de la imagen del contenedo div3*/
+    
+    .div3 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.9rem;
+        box-shadow: 0px 0px 9px 6px rgba(0, 0, 0, 0.3);
+    }
+    /**********************************************************************************************/
+    
+    @media(min-width: 768px) {
+        /*el tamaño del h2*/
+        .letrafondo {
+            font-size: 65px;
+            padding: 65px;
+        }
+        .div_imagen {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .div-imagen p {
+            font-size: 15px;
+        }
+        .div-imagen {
+            /* background-color: blue;*/
+            margin-top: 20px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            text-align: center;
+            margin-left: 12px;
+            margin-right: 12px;
+            width: 305px;
+            height: 300px;
+            justify-content: center;
+        }
+        /*clase para  para la letra de la izquierda*/
+        .div1_1 {
+            width: 250px;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+        .div1_1 h2 {
+            font-size: 22px;
+        }
+        .div1_1 p {
+            font-size: 15px;
+        }
+        .size-letra {
+            font-size: 22px;
+        }
+        .size-parrafo {
+            font-size: 15px;
+        }
+        /*clase para   el contenedor que contiene las dos imagenes gemelas*/
+        .div1 {
+            margin-left: 12px;
+            margin-right: 12px;
+            width: 360px;
+        }
+        /*clase para  el contenedor de la imagen gemela pequeña  */
+        .div2 {
+            width: 155px;
+            height: 248px;
+        }
+        /* codigo para la imagen del contenedor div2 la pequeña*/
+        .div2 img {
+            width: 100%;
+            height: 100%;
+        }
+        /*clase para el contenedor de la imagen gemela mas grande*/
+        .div3 {
+            width: 245px;
+        }
+        /*propiedades de la imagen de la clase del contenedor div3 */
+        .div3 img {
+            width: 100%;
+            height: 100%;
+        }
+        .card-imagenredonda {
+            /*la imagen circular  sobrepuesta a otra img del archivo de nosotros  para dispositivo mas de 768*/
+            width: 224px;
+            height: 224px;
+            margin-top: -144px;
+            /*..................................................*/
+        }
+        /* clase para manipular a medida mayor de 768 pixeles el texto y las imagenes gemelas*/
+        .triangulo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+    
+    @media(min-width: 992px) {
+        .letrafondo {
+            font-size: 80px;
+            padding: 65px;
+        }
+        .div-imagen {
+            margin-right: 20px;
+            margin-left: 20px;
+            width: 425px;
+            height: 340px;
+        }
+        .div-imagen p {
+            font-size: 18px;
+        }
+        /*..................................................*/
+        .card-imagenredonda {
+            /*la imagen circular  sobrepuesta a otra img de nosotros  para dispositivo mas de 992*/
+            width: 288px;
+            height: 288px;
+            margin-top: -160px;
+            /*..................................................*/
+        }
+        /*clase para el contenedor  del testo a la izquierdade la imagenes gemelas*/
+        .div1_1 {
+            width: 335px;
+        }
+        .div1_1 h2 {
+            font-size: 27px;
+        }
+        .div1_1 p {
+            font-size: 18px;
+        }
+        .size-letra {
+            font-size: 27px;
+        }
+        .size-parrafo {
+            font-size: 18px;
+        }
+        /*clase para el contenedor donde estan las imagenes gemelas*/
+        .div1 {
+            width: 535px;
+            height: 300px;
+        }
+        /*clase para el contenedor de la imagen pequeña delas gemelas*/
+        .div2 {
+            width: 210px;
+            height: 250px;
+        }
+        /*clase para el contenedor de la imagen mas grande de las gemelas*/
+        .div3 {
+            width: 400px;
+            height: 300px;
+        }
+    }
+    
+    @media(min-width: 1200px) {
+        .letrafondo {
+            font-size: 95px;
+            padding: 65px;
+        }
+        .div-imagen {
+            margin-right: 20px;
+            margin-left: 20px;
+            width: 500px;
+            height: 385px;
+        }
+        .div-imagen p {
+            font-size: 20px;
+        }
+        /*..................................................*/
+        .card-imagenredonda {
+            /*para el circulo de la img superpuesta a otra  imagen  sobre puesta para medidad de computadora*/
+            width: 336px;
+            height: 336px;
+            border-radius: 50%;
+            margin-top: -192px;
+            /*..................................................*/
+        }
+        /*clase para el contenedor de texto a la izquierda de las imagenes gemelas*/
+        .div1_1 {
+            width: 390px;
+            height: 400px;
+        }
+        /*clase para el contenedor de las imagenes gemelas*/
+        .div1 {
+            width: 626px;
+            height: 400px;
+        }
+        .div1_1 h2 {
+            font-size: 33px;
+        }
+        .div1_1 p {
+            font-size: 20px;
+        }
+        .size-letra {
+            font-size: 33px;
+        }
+        .size-parrafo {
+            font-size: 20px;
+        }
+        /*clase para el contenedor para la imagen gemela mas pequeña*/
+        .div2 {
+            width: 300px;
+            height: 335px;
+        }
+        /*clase para el contenedor de las imagenes gemelas las mas grande*/
+        .div3 {
+            width: 540px;
+            height: 390px;
+        }
+    }
