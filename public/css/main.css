@@ -1,8 +1,4 @@
-/*Hero*/
-/*Format font*/
-
-/*End Format*/    
-/*Palet colours*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Flamenco&family=Montserrat&display=swap');
 :root{
     --white: #d4eeab;
     --secondary: #9192AC;
@@ -530,6 +526,24 @@ footer section p{
             height: 300px;
         }
     }
+
+    /*clase de galeria*/
+     .nueva:hover {
+    transform: translateX(4%);
+}
+
+/* FUENTES TYPOGRAFICAS*/
+h1{
+    font-family: 'EB Garamond', serif;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Flamenco', cursive;
+}
+p, a{
+    font-family: 'Montserrat', sans-serif;
+}
+
     
     @media(min-width: 1200px) {
         .letrafondo {
