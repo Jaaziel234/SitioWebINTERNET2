@@ -1,209 +1,576 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
-    <title>Muebleria Triple A</title>
-    <link rel="stylesheet" href="public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="public/css/main.css">
-   <!--FontAwesome-->
-   <!--icono de whatsApp-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">LOGO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="./galeria.html">Galeria</a>
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- boton flotante de whatsapp-->
-    <a class="float"
-        href="https://api.whatsapp.com/send?phone=50371381006&text=Hola!%20%20puedes%20hacer%20tu%20pedido%20por%20este%20medio%20te%20atenderemos%20%20rapidamente."
-        target="_blank">
-        <i class="fab fa-whatsapp my-float fa-1x">
-        </i>
-    </a>
-    <!-- ceramos el  flotante de whatsapp-->
-    <main>
-        <section class="bg-light">
-            <div class="container pt-4 mt-5">
-                <div class="content1 text-center">
-                    <h1 class="text-center">  SECCIÓN DE GALERIA</h1>
-                    <h4 class="text-center">MUEBLES DEL HOGAR</h4>
-                    <p class="text-center">En esta sección puedes ver los distintos muebles que el negocio ofrece.</p>
-                </div>
-            </div>
-
-            <!--imagenes-->
-            <div class="container p-4 ">
-                <div class="row d-flex justify-content-around">
-                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around nueva">
-                        <div class="card shadow-md m-3 shadow-lg" style="width: 18rem;">
-                            <img src="public/images/galeria/imagen1.jpg" class="card-img-top" alt="imagen de primer mueble">
-                            <div class="card-body">
-                                <h5 class="card-title">What is Lorem Ipsum 1?</h5>
-                                <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    
-                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
-                        <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
-                            <img src="public/images/galeria/imagen2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">What is Lorem Ipsum 2?</h5>
-                                <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
-                        <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
-                            <img src="public/images/galeria/imagen3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">What is Lorem Ipsum 3?</h5>
-                                <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                        </div>
+    <head>
+        <meta charset="utf-8">
+            <meta content="IE=edge" http-equiv="X-UA-Compatible">
+                <meta content="width=device-width, initial-scale=1.0 maximum-scale=1.0" name="viewport">
+                    <title>
+                        Muebleria Triple A
+                    </title>
+                    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+                        <link href="public/css/main.css" rel="stylesheet">
+                            <!--FontAwesome-->
+                            <!--icono de whatsApp-->
+                            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+                            </link>
+                        </link>
+                    </link>
+                </meta>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    LOGO
+                </a>
+                <button aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavAltMarkup" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="./index.html">
+                            Inicio
+                            <span class="sr-only">
+                                (current)
+                            </span>
+                        </a>
+                        <a class="nav-link" href="./galeria.html">
+                            Galeria
+                        </a>
+                        <a class="nav-link" href="./nosotros.html">
+                            Nosotros
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--PARTE 2 DE las targetas-->
-        <section class="bg-light">
+        </nav>
+        <!-- boton flotante de whatsapp-->
+        <a class="float" href="https://api.whatsapp.com/send?phone=50371381006&text=Hola,%20bienvenidos%20a%20nuestro%20%20WhasatsApp,%20realiza%20tu%20consuta,%20te%20atenderemos%20rapidamente." target="_blank">
+            <i class="fab fa-whatsapp my-float fa-1x">
+            </i>
+        </a>
+        <!-- ceramos el  flotante de whatsapp-->
+        <main>
+            <section class="bg-light">
+                <div class="container pt-4 mt-5">
+                    <div class="content1 text-center">
+                        <h1 class="text-center">
+                            SECCIÓN DE GALERIA
+                        </h1>
+                        <h4 class="text-center">
+                            MUEBLES DEL HOGAR
+                        </h4>
+                        <p class="text-center">
+                            En esta sección puedes ver los distintos muebles que el negocio ofrece.
+                        </p>
+                    </div>
+                </div>
+                <!--imagenes-->
+                <div class="container p-4 ">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around nueva">
+                            <div class="card shadow-md m-3 shadow-lg" style="width: 18rem;">
+                                <img alt="imagen de primer mueble" class=" size-imagen card-img-top" src="public/images/galeria/estante.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            LIBRERA
+                                        </h5>
+                                        <p class="card-text">
+                                            Librera de melamina color (gris) dimensiones de 15 metros de largo x 5 metros de ancho.
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/imagen2.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            BANQUETA MARGARITA
+                                        </h5>
+                                        <p class="card-text">
+                                            Banqueta de (melamina) 1.30 metros alto x 2.0 metros de ancho, rojo coral (barnizada).
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/ropero con espejo.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            ROPERO PREMIUM
+                                        </h5>
+                                        <p class="card-text">
+                                            Ropero  de melamina de dos puertas
+                                             color blanco
+                                            1.70 metros de alto x 1.40 de ancho.
+                                            espejo de 1.30
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--PARTE 2 DE las targetas-->
+            <section class="bg-light">
+                <div class="container pt-4">
+                    <div class="content1 text-center">
+                        <h4 class="text-center">
+                            MUEBLES DE SALA
+                        </h4>
+                        <p class="text-center">
+                            En esta sección puedes ver los distintos muebles que el negocio ofrece.
+                        </p>
+                    </div>
+                </div>
+                <div class="container p-4 ">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/imagen1.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            JUEGO DE SALA PREMIUM
+                                        </h5>
+                                        <p class="card-text">
+                                            juego de sala de 4 piezas:
+                                            sillon de madera tapizado, rojo coral de 2.5 metros.
+                                            sillones de madera (cedro) de 1.50 m ancho x 8 cm alto.
+                                            Mesa  (melamina) 1.0 metro ancho x 80. cm alto barnizada.
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/modulo.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            MODULO DE 5 REPISAS
+                                        </h5>
+                                        <p class="card-text">
+                                            modulo  de (melamina) con dimensiones de 2.80 metros de alto x 3 metros de ancho.
+                                            color (gris acrilico)
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/gabinet.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            GABINETE PARA TV
+                                        </h5>
+                                        <p class="card-text">
+                                            Gabinete de 13 gabetas  de (melamina) con una dimension de 4 metros de largo x 1 metro de ancho.
+                                            color (coral)
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-desing" id="1">
+                <div class="container">
+                    <div class="contenedor1">
+                        <div class="triangulo">
+                            <div class="div1_1" id="mostrar">
+                                <div>
+                                </div>
+                                <h2>
+                                    Nosotros
+                                </h2>
+                                <p>
+                                    En Muebles Triple A, dedicados al mobiliario clásico de lujo y a la decoración, elaboramos
+                                cada pieza combinando lo mejor de la tradición artística con las tendencias de
+                                vanguardia en interiorismo y decoración, para crear ambientes únicos, delicados para
+                                su hogar y oficinas.
+                                </p>
+                                <a class="btn btn-info" href="nosotros.html">
+                                    ver más
+                                </a>
+                            </div>
+                            <div class="div1">
+                                <div class="div1-1">
+                                    <div class="div2">
+                                        <img src="./public/images/nosotros/taller9.jpg">
+                                        </img>
+                                    </div>
+                                    <div class="div3">
+                                        <img src="./public/images/nosotros/kitchen7.png">
+                                        </img>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-light">
+                <div class="container pt-4">
+                    <div class="content1 text-center">
+                        <h4 class="text-center">
+                            MUEBLES DE COMEDOR
+                        </h4>
+                        <p class="text-center">
+                            En esta sección puedes ver los distintos muebles que el negocio ofrece.
+                        </p>
+                    </div>
+                </div>
+                <div class="container p-4 ">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/comedor1.png">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            COMEDOR ELEGANTE
+                                        </h5>
+                                        <p class="card-text">
+                                            Comedor con estilo unico, de dimensiones de 3.0 metros de ancho x 1.10cm de alto
+                                            Color (blanco hueso)
+                                            madera(roble)
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/comedor2.png">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            COMEDOR FAMILIAR
+                                        </h5>
+                                        <p class="card-text">
+                                            Comedor de madera (cedro) dimensiones de 2.50 metros de ancho x 1.10 de alto.
+                                           Color (blanco)
+                                           4 sillas de color (blanco)
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/comedor3.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            COMEDOR PEQUEÑO
+                                        </h5>
+                                        <p class="card-text">
+                                            Comedor para 4 personas
+                                           dimensiones de 2.metros de ancho x 1.10 de alto.
+                                           madera (pino) color rojo coral.
+                                           4 sillas de madera (pino)
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-light">
+                <div class="container pt-4">
+                    <div class="content1 text-center">
+                        <h4 class="text-center">
+                            DISEÑOS DE COCINA
+                        </h4>
+                        <p class="text-center">
+                            En esta sección puedes ver los diseños realisados a clientes en sus cocinas.
+                        </p>
+                    </div>
+                </div>
+                <div class="container p-4 ">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/imagen4.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            PANTRY
+                                        </h5>
+                                        <p class="card-text">
+                                            Pantry de (melamina), color (gris), dimensiones 7 metros de largo x 1 de ancho. 10 puertas.
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/imagen5.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            DISEÑO DE COCINA
+                                        </h5>
+                                        <p class="card-text">
+                                            Pantry de 10 puertas y 8 gabetas de madera(cedro) color (blanco).
+                                            dimensiones 15 metros de largo x 90 cm de ancho.
+                                            Comedor familiar de madera (roble) color(caoba barnizado) incluye 6 puertas de 60 cm de ancho x 50 de alto. + 3 sillas
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/imagen6.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            DISEÑO  DE COCINA 2
+                                        </h5>
+                                        <p class="card-text">
+                                            Pantry de 10 puertas y 8 gabetas de madera(cedro) color (blanco).
+                                            dimensiones 15 metros de largo x 90 cm de ancho.
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-light">
+                <div class="container pt-4">
+                    <div class="content1 text-center">
+                        <h4 class="text-center">
+                            DECORACIONES Y DISEÑOS REALIZADOS DE BAÑOS y DORMITORIO
+                        </h4>
+                        <p class="text-center">
+                            En esta sección puedes ver los distintos muebles que el negocio ofrece.
+                        </p>
+                    </div>
+                </div>
+                <div class="container p-4 ">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/baño1.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            DECORADO CON MADERA 1
+                                        </h5>
+                                        <p class="card-text">
+                                            Particiones de baño con  acabado  en madera de (cedro)
+                                            1. metro ancho x 2 metros de alto.
+                                            incluye tapaderas para retrete con acabado en madera
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/bedroom.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            DECORADO DE DORMITORIO 1?
+                                        </h5>
+                                        <p class="card-text">
+                                            puertas de madera (cedro) de 1.90 m de alto x 1.40 m de ancho. barnizado.
+                                           Cama Matrimonial de 1.60 de largo por 80 cm de alto (barnizada)
+                                           mesa para lampara de 60 cm de alto. madera (cedro)
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/bedroom2.jpg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            DECORADO DE  DORMITORIO CON ARMARIO
+                                        </h5>
+                                        <p class="card-text">
+                                            Armario de 2 secciones incluye 2 puertas de 3.50 de alto x 1 metro de ancho, madera (cedro) estilo rustico
+                                           Cama Matrimonial de 1.60 de largo por 80 cm de alto (barnizada)
+                                           mesa para lampara de 60 cm de alto. madera (cedro)
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-desing" id="1">
+                <div class="container">
+                    <div class="contenedor1">
+                        <div class="triangulo">
+                            <div class="div1_1" id="mostrar">
+                                <div>
+                                </div>
+                                <h2>
+                                    Historia
+                                </h2>
+                                <p>
+                                    Con casi dos decadas  seguimos dedicados la decoración y elaboración de muebles . En Muebles Triple A elaboramos cada pieza con acabados y tendencias de vanguardia en interiorismo y decoración, para crear ambientes únicos, delicados para su
+                        hogar y oficinas.
+                                </p>
+                                <a class="btn btn-info" href="nosotros.html">
+                                    ver más
+                                </a>
+                            </div>
+                            <div class="div1">
+                                <div class="div1-1">
+                                    <div class="div2">
+                                        <img src="./public/images/nosotros/taller9.jpg">
+                                        </img>
+                                    </div>
+                                    <div class="div3">
+                                        <img src="./public/images/nosotros/baño.png">
+                                        </img>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-light">
+                <div class="container pt-4">
+                    <div class="content1 text-center">
+                        <h4 class="text-center">
+                            DECORACIONES Y DISEÑOS REALIZADOS DE OFICINA
+                        </h4>
+                        <p class="text-center">
+                            En esta sección puedes ver los distintos muebles que el negocio ofrece.
+                        </p>
+                    </div>
+                </div>
+                <div class="container p-4 ">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/officina1.png">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            MESA PARA REUNIONES
+                                        </h5>
+                                        <p class="card-text">
+                                            Mesa para juntas. de melamina color (blanca barnizada)
+                                           dimesiones de 10 metros
+                                           20 sillas de madera de (roble)
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/oficina2.png">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            ESCRITORIO PERSONAL
+                                        </h5>
+                                        <p class="card-text">
+                                            Escritorio de melamina.Color (gris) 
+                                            dimesiones de 1.0 metros de alto por 1.60 de ancho
+                                            incluye: estante con 2 espacios de 2.0 metros de largo x 70 cm de ancho color (gris)
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
+                            <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
+                                <img alt="..." class="card-img-top size-imagen" src="public/images/galeria/officina3.png">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">
+                                            MESA PARA JUNTAS
+                                        </h5>
+                                        <p class="card-text">
+                                            Mesa para juntas. de melamina color caoba (barnizada)
+                                            dimesiones de 10 metros
+                                            20 sillas de madera de (roble)
+                                        </p>
+                                    </div>
+                                </img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-dark">
             <div class="container pt-4">
-                <div class="content1 text-center">
-                    <h4 class="text-center">MUEBLES DEL HOGAR</h4>
-                    <p class="text-center">En esta sección puedes ver los distintos muebles que el negocio ofrece.</p>
+                <div class="row">
+                    <section class="col-sm-12 col-md-3 col-lg-3 text-center">
+                        <h5>
+                            Muebles Triple A
+                        </h5>
+                        <p>
+                            <b>
+                                Horario:
+                            </b>
+                            8:00 AM a 4:00 PM
+                        </p>
+                        <p>
+                            Abierto
+                        </p>
+                    </section>
+                    <section class="col-sm-12 col-md-3 col-lg-3">
+                        <h5>
+                            Siguenos en:
+                        </h5>
+                        <a class="footer-icon" href="#">
+                            <i class="fab fa-facebook">
+                            </i>
+                        </a>
+                    </section>
+                    <section class="col-sm-12 col-md-3 col-lg-3">
+                        <h5>
+                            Contactos
+                        </h5>
+                        <p>
+                            <b>
+                                Email:
+                            </b>
+                            mtriplea.business@yahoo.es
+                        </p>
+                    </section>
+                    <section class="col-sm-12 col-md-3 col-lg-3">
+                        <h5>
+                            Dirección
+                        </h5>
+                        <p>
+                            Nos encontramos ubicado en la capital,   colonia san Antonio abad, calle la granjita, número 178.
+                        </p>
+                    </section>
                 </div>
             </div>
-
-            <div class="container p-4 ">
-                <div class="row d-flex justify-content-around">
-                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
-                        <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
-                            <img src="public/images/galeria/imagen1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">What is Lorem Ipsum 4?</h5>
-                                <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
-                        <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
-                            <img src="public/images/galeria/imagen2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">What is Lorem Ipsum 5?</h5>
-                                <p class="card-text"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
-                        <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
-                            <img src="public/images/galeria/imagen3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">What is Lorem Ipsum 6?</h5>
-                                <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="footer-down py-2">
+                <p class="m-0">
+                    Creado por estudiantes ULS
+                </p>
+                <span>
+                    ©COPYRIGHT 2021
+                </span>
             </div>
-        </section>
-
-        <section class="bg-light">
-            <div class="container pt-4">
-                <div class="content1 text-center">
-                    <h4 class="text-center">DISEÑOS DE COCINA</h4>
-                    <p class="text-center">En esta sección puedes ver los distintos muebles que el negocio ofrece.</p>
-                </div>
-            </div>
-
-            <div class="container p-4 ">
-                <div class="row d-flex justify-content-around">
-                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
-                        <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
-                            <img src="public/images/galeria/imagen4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">What is Lorem Ipsum 4?</h5>
-                                <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
-                        <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
-                            <img src="public/images/galeria/imagen5.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">What is Lorem Ipsum 5?</h5>
-                                <p class="card-text"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-around">
-                        <div class="card shadow-md m-3 shadow-lg nueva" style="width: 18rem;">
-                            <img src="public/images/galeria/imagen6.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">What is Lorem Ipsum 6?</h5>
-                                <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-dark">
-        <div class="container pt-4">
-            <div class="row">
-                <section class="col-sm-12 col-md-3 col-lg-3">
-                    <h5>Muebles Triple A</h5>
-                    <p><b>Horario:</b>8:00 AM a 4:00 PM</p>
-                    <p>Abierto</p>
-                </section>
-                <section class="col-sm-12 col-md-3 col-lg-3">
-                    <h5>Siguenos en:</h5>
-                    <a class="footer-icon" href="#"><i class="fab fa-facebook"></i></a>
-                </section>
-                <section class="col-sm-12 col-md-3 col-lg-3">
-                    <h5>Contactos</h5>
-                    <p><b>Email:</b> mtriplea.business@yahoo.es</p>
-                </section>
-                <section class="col-sm-12 col-md-3 col-lg-3">
-                    <h5>Dirección</h5>
-                    <p>Nos encontramos ubicado en la capital,   colonia san Antonio abad, calle la granjita, número 178.</p>
-                </section>
-            </div>
-        </div>
-        <div class="footer-down py-2">
-            <p class="m-0">Creado por estudiantes ULS</p>
-            <span>©COPYRIGHT 2021</span>
-        </div>
-    </footer>
-</body>
-<!--Script of BS-->
-<script src="public/js/jquery-3.5.1.slim.min.js"></script>
-<script src="public/js/popper.min.js"></script>
-<script src="public/js/bootstrap.min.js"></script>
-
+        </footer>
+    </body>
+    <!--Script of BS-->
+    <script src="public/js/jquery-3.5.1.slim.min.js">
+    </script>
+    <script src="public/js/popper.min.js">
+    </script>
+    <script src="public/js/bootstrap.min.js">
+    </script>
 </html>
