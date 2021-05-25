@@ -204,8 +204,8 @@ footer section p {
 .letrafondo {
     /* para el area de reservar la letra*/
     position: relative;
-    color: rgb(250, 246, 246);
     font-size: 50px;
+    margin-top: 150px;
     text-align: center;
     padding: 50px;
     justify-content: center;
@@ -394,8 +394,9 @@ footer section p {
 @media(min-width: 768px) {
     /*el tamaño del h2*/
     .letrafondo {
-        font-size: 65px;
+        font-size: 60px;
         padding: 65px;
+        margin-top: 150px;
     }
     .div_imagen {
         display: flex;
@@ -476,8 +477,9 @@ footer section p {
 }
 @media(min-width: 992px) {
     .letrafondo {
-        font-size: 80px;
+        font-size: 60px;
         padding: 65px;
+        margin-top: 150px;
     }
     .div-imagen {
         margin-right: 20px;
@@ -546,9 +548,9 @@ p, a {
 }
 @media(min-width: 1200px) {
     .letrafondo {
-        font-size: 95px;
+        font-size: 80px;
         padding: 65px;
-        margin-top: 2000px;
+        margin-top: 150px;
     }
     .div-imagen {
         margin-right: 20px;
